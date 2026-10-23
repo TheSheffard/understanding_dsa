@@ -39,7 +39,7 @@ def Find_a_number(arr):
   
   for i in range(len(arr)):
     
-    if ques1[i] == target:
+    if arr[i] == target:
       
       return i
   return -1
@@ -116,6 +116,7 @@ def first_occurrence(arr):
       
       return  i
   
+  return -1
 # print(first_occurrence(ques4))
 
 
@@ -239,10 +240,7 @@ ques9 = []
   
 def search_empty(arr):
     
-  target = 10
-  
-  if len(arr) == 0: return 0 
-  
+  target = 10  
   
   for i in range(len(arr)):
     
@@ -284,14 +282,3 @@ def find_first_highest(arr):
 
 # print(find_first_highest(ques10))
   
-  
-  
-  
-  
-    
-  
-      
-    
-
-
-
